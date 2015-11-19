@@ -1,3 +1,13 @@
+
+html,body{
+  height:100%;
+  margin:3%;
+  padding:1%;
+}
+
+
+
+
 h1 {
 	color: yellow;
     width:100%;
@@ -10,7 +20,17 @@ h1 {
         background-color: #e0e0d1;
         list-style: none;}
 
-.image {
-	background: url('img/slide1.jpg')
+.image 
+	{
+	background-image: url("img/slide1.jpg");
+
+	 height: 600px;
+	 width: 100%;
+	 overflow: ;
+	 background-repeat: no-repeat;
+	 background-position: right top;
 }
+
+
+.header ul;li{ display: inline;}
 
